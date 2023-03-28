@@ -1,0 +1,42 @@
+#student-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin-top: 80px;
+}
+
+input {
+  width: 400px;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  all: unset;
+  width: 400px;
+  background-color: rgb(43, 63, 116);
+  text-align: center;
+  padding: 8px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: white;
+}
+
+.errorMessages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+  color: #d84646;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+  gap: 10px;
+  color: #308040;
+}
